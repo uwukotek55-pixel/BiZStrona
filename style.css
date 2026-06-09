@@ -1,0 +1,159 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    min-height: 100vh;
+    background-image: url("szczecin2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.page-shell {
+    position: relative;
+    width: min(1200px, 100vw);
+    max-width: 1200px;
+    min-height: 180vh;
+    text-align: center;
+}
+h1{
+    font-family: "roboto", sans-serif;
+    font-size: clamp(32px, 2.5vw, 40px);
+    border-style: outset;
+    border-color: aquamarine;
+    border-width: 6px;
+    border-radius: 12px;
+    background-color: #557a71;
+    padding: 6px 10px;
+    position: absolute;
+    top: 2vh;
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(90vw, 800px);
+    text-align: center;
+}
+
+h2{
+    font-family: "consolas", sans-serif;
+    font-size: clamp(20px, 2vw, 28px);
+    position: absolute;
+    top: 12vh;
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(90vw, 760px);
+    text-align: center;
+}
+p{
+    font-family: "consolas", sans-serif;
+    font-size: clamp(14px, 1.2vw, 16px);
+    position: absolute;
+    top: 18vh;
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(90vw, 760px);
+    text-align: center;
+}
+
+h3{
+    font-weight: bold;
+    font-size: clamp(60px, 6vw, 100px);
+    position: absolute;
+    top: 28vh;
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(90vw, 1000px);
+    text-align: center;
+}
+
+h4{
+    font-family: "consolas", sans-serif;
+    font-size: clamp(14px, 1.2vw, 16px);
+    position: absolute;
+    top: 42vh;
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(90vw, 760px);
+    text-align: center;
+    line-height: 1.5;
+}
+
+h5{
+    font-family: "consolas", sans-serif;
+    font-size: clamp(14px, 1.2vw, 16px);
+    position: absolute;
+    top: 75vh;
+    left: 50%;
+    transform: translateX(-50%);
+    color: aquamarine;
+    width: min(90vw, 760px);
+    text-align: center;
+    line-height: 1.5;
+}
+
+.p2{
+    font-family: "consolas", sans-serif;
+    font-size: clamp(13px, 1vw, 15px);
+    position: absolute;
+    top: 49vh;
+    left: 50%;
+    transform: translateX(-50%);
+    color: aquamarine;
+    width: min(90vw, 760px);
+    line-height: 1.6;
+    text-align: center;
+}
+
+.p3{
+    font-family: "consolas", sans-serif;
+    font-size: clamp(13px, 1vw, 15px);
+    position: absolute;
+    top: 140vh;
+    left: 50%;
+    transform: translateX(-50%);
+    color: aquamarine;
+    width: min(90vw, 760px);
+    text-align: center;
+    line-height: 1.6;
+}
+
+ul{
+    font-family: "consolas", sans-serif;
+    font-size: clamp(13px, 1vw, 15px);
+    position: absolute;
+    top: 33vh;
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(90vw, 760px);
+    line-height: 1.8;
+}
+
+.video-container {
+    position: absolute;
+    top: 90vh;
+    left: 50%;
+    transform: translateX(-50%);
+    width: clamp(320px, 40vw, 720px);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ol {
+    margin: 0 auto;
+    padding-left: 1.4em;
+    text-align: left;
+    width: min(90%, 420px);
+}
