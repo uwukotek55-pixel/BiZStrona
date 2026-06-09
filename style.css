@@ -1,0 +1,127 @@
+body{
+    background-image: url("szczecin2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+
+}
+h1{
+    font-family: "roboto",sans-serif;
+    font-size: 40px;
+    border-style: outset;
+    border-color: aquamarine;
+    border-brightness: 40%;
+    border-width: 6px;
+    border-radius: 12px;
+    background-color: #557a71;
+    background-brightness: 30%;
+    padding: 3px;
+    position: absolute;
+    top:2%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h2{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+p{
+    font-family:"consolas",sans-serif;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h3{
+    font-weight: bold;
+    font-size:100px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+h4{
+    font-family:"consolas",sans-serif;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h5{
+    font-family:"consolas",sans-serif;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: aquamarine;
+}
+
+p2{
+    font-family:"consolas",sans-serif;
+    position: absolute;
+    top: 51%;
+    left: 53%;
+    transform: translateX(-47%);
+    color: aquamarine;
+}
+
+p3{
+    font-family:"consolas",sans-serif;
+    position: absolute;
+    top: 140%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: aquamarine;
+}
+ul{
+    font-family:"consolas",sans-serif;
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#box1{
+    border 1px solid aquamarine;
+    height: 1400px;
+    width: 300px;
+    background-color: #557a71;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#box2{
+    border: 1px solid aquamarine;
+    height: 1400px;
+    width: 300px;
+    background-color: #557a71;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.video-container {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: clamp(320px, 40vw, 720px);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
